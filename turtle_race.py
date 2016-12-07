@@ -23,3 +23,4 @@ if andy.position() > lance.position():
 else:
     print ("Lance's win!")
 wn.exitonclick()
+
