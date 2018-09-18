@@ -1,0 +1,250 @@
+============================= test session starts ==============================
+platform zos -- Python 3.6.1, pytest-3.0.7, py-1.4.32, pluggy-0.4.0 -- /rsusr/ported/IBM/izoda/anaconda/bin/python
+cachedir: ../.cache
+rootdir: /u/pdtish/tmp/cloudpickle, inifile: tox.ini
+plugins: timeout-1.2.0, mock-1.5.0, cov-2.4.0, catchlog-1.2.2
+collecting ... collected 122 items
+
+cloudpickle_file_test.py::CloudPickleFileTests::test_closed_file PASSED
+cloudpickle_file_test.py::CloudPickleFileTests::test_empty_file PASSED
+cloudpickle_file_test.py::CloudPickleFileTests::test_pickling_special_file_handles PASSED
+cloudpickle_file_test.py::CloudPickleFileTests::test_plus_mode PASSED
+cloudpickle_file_test.py::CloudPickleFileTests::test_r_mode PASSED
+cloudpickle_file_test.py::CloudPickleFileTests::test_seek PASSED
+cloudpickle_file_test.py::CloudPickleFileTests::test_temp_file SKIPPED
+cloudpickle_file_test.py::CloudPickleFileTests::test_w_mode PASSED
+cloudpickle_test.py::CloudPickleTest::test_Ellipsis PASSED
+cloudpickle_test.py::CloudPickleTest::test_NotImplemented PASSED
+cloudpickle_test.py::CloudPickleTest::test_abc PASSED
+cloudpickle_test.py::CloudPickleTest::test_attrgetter PASSED
+cloudpickle_test.py::CloudPickleTest::test_buffer PASSED
+cloudpickle_test.py::CloudPickleTest::test_builtin_function_without_module PASSED
+cloudpickle_test.py::CloudPickleTest::test_builtin_type__new__ PASSED
+cloudpickle_test.py::CloudPickleTest::test_cell_manipulation PASSED
+cloudpickle_test.py::CloudPickleTest::test_classmethod PASSED
+cloudpickle_test.py::CloudPickleTest::test_closure_none_is_preserved PASSED
+cloudpickle_test.py::CloudPickleTest::test_cycle_in_classdict_globals PASSED
+cloudpickle_test.py::CloudPickleTest::test_dynamic_module PASSED
+cloudpickle_test.py::CloudPickleTest::test_dynamic_pytest_module PASSED
+cloudpickle_test.py::CloudPickleTest::test_dynamically_generated_class_that_uses_super PASSED
+cloudpickle_test.py::CloudPickleTest::test_empty_cell_preserved PASSED
+cloudpickle_test.py::CloudPickleTest::test_extended_arg PASSED
+cloudpickle_test.py::CloudPickleTest::test_faulty_module PASSED
+cloudpickle_test.py::CloudPickleTest::test_find_module PASSED
+cloudpickle_test.py::CloudPickleTest::test_func_globals PASSED
+cloudpickle_test.py::CloudPickleTest::test_function_module_name PASSED
+cloudpickle_test.py::CloudPickleTest::test_function_pickle_compat_0_4_0 SKIPPED
+cloudpickle_test.py::CloudPickleTest::test_function_pickle_compat_0_4_1 SKIPPED
+cloudpickle_test.py::CloudPickleTest::test_function_qualname PASSED
+cloudpickle_test.py::CloudPickleTest::test_generator PASSED
+cloudpickle_test.py::CloudPickleTest::test_import FAILED
+cloudpickle_test.py::CloudPickleTest::test_instancemethods_without_self PASSED
+cloudpickle_test.py::CloudPickleTest::test_interactively_defined_function PASSED
+cloudpickle_test.py::CloudPickleTest::test_interactively_defined_global_variable PASSED
+cloudpickle_test.py::CloudPickleTest::test_itemgetter PASSED
+cloudpickle_test.py::CloudPickleTest::test_itertools_count PASSED
+cloudpickle_test.py::CloudPickleTest::test_lambda PASSED
+cloudpickle_test.py::CloudPickleTest::test_large_memoryview PASSED
+cloudpickle_test.py::CloudPickleTest::test_load_namespace PASSED
+cloudpickle_test.py::CloudPickleTest::test_loads_namespace PASSED
+cloudpickle_test.py::CloudPickleTest::test_locally_defined_function_and_class PASSED
+cloudpickle_test.py::CloudPickleTest::test_logger PASSED
+cloudpickle_test.py::CloudPickleTest::test_memoryview PASSED
+cloudpickle_test.py::CloudPickleTest::test_method_descriptors PASSED
+cloudpickle_test.py::CloudPickleTest::test_module PASSED
+cloudpickle_test.py::CloudPickleTest::test_multiprocess FAILED
+cloudpickle_test.py::CloudPickleTest::test_namedtuple PASSED
+cloudpickle_test.py::CloudPickleTest::test_nested_lambdas PASSED
+cloudpickle_test.py::CloudPickleTest::test_partial PASSED
+cloudpickle_test.py::CloudPickleTest::test_pickle_reraise PASSED
+cloudpickle_test.py::CloudPickleTest::test_pickling_file_handles PASSED
+cloudpickle_test.py::CloudPickleTest::test_recursive_closure PASSED
+cloudpickle_test.py::CloudPickleTest::test_sliced_and_non_contiguous_memoryview PASSED
+cloudpickle_test.py::CloudPickleTest::test_submodule PASSED
+cloudpickle_test.py::CloudPickleTest::test_submodule_closure PASSED
+cloudpickle_test.py::CloudPickleTest::test_tornado_coroutine PASSED
+cloudpickle_test.py::CloudPickleTest::test_ufunc PASSED
+cloudpickle_test.py::CloudPickleTest::test_unhashable_closure PASSED
+cloudpickle_test.py::CloudPickleTest::test_unhashable_function PASSED
+cloudpickle_test.py::CloudPickleTest::test_weakset_identity_preservation PASSED
+cloudpickle_test.py::CloudPickleTest::test_wraps_preserves_function_annotations PASSED
+cloudpickle_test.py::CloudPickleTest::test_wraps_preserves_function_doc PASSED
+cloudpickle_test.py::CloudPickleTest::test_wraps_preserves_function_name PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_Ellipsis PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_NotImplemented PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_abc PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_attrgetter PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_buffer PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_builtin_function_without_module PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_builtin_type__new__ PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_cell_manipulation PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_classmethod PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_closure_none_is_preserved PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_cycle_in_classdict_globals PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_dynamic_module PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_dynamic_pytest_module PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_dynamically_generated_class_that_uses_super PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_empty_cell_preserved PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_extended_arg PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_faulty_module PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_find_module PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_func_globals PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_function_module_name PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_function_pickle_compat_0_4_0 SKIPPED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_function_pickle_compat_0_4_1 SKIPPED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_function_qualname PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_generator PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_import FAILED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_instancemethods_without_self PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_interactively_defined_function PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_interactively_defined_global_variable PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_itemgetter PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_itertools_count PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_lambda PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_large_memoryview PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_load_namespace PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_loads_namespace PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_locally_defined_function_and_class PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_logger PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_memoryview PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_method_descriptors PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_module PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_multiprocess FAILED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_namedtuple PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_nested_lambdas PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_partial PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_pickle_reraise PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_pickling_file_handles PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_recursive_closure PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_sliced_and_non_contiguous_memoryview PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_submodule PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_submodule_closure PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_tornado_coroutine PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_ufunc PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_unhashable_closure PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_unhashable_function PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_weakset_identity_preservation PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_wraps_preserves_function_annotations PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_wraps_preserves_function_doc PASSED
+cloudpickle_test.py::Protocol2CloudPickleTest::test_wraps_preserves_function_name PASSED
+
+=================================== FAILURES ===================================
+_________________________ CloudPickleTest.test_import __________________________
+
+self = <tests.cloudpickle_test.CloudPickleTest testMethod=test_import>
+
+    def test_import(self):
+        # like test_multiprocess except subpackage modules referenced directly
+        # (unlike test_submodule)
+        global etree
+        def scope():
+            import curses.textpad as foobar
+            def example():
+                x = etree.Comment
+                x = foobar.Textbox
+            return example
+        example = scope()
+        import xml.etree.ElementTree as etree
+    
+        s = cloudpickle.dumps(example)
+    
+        command = ("import pickle, base64; "
+                   "pickle.loads(base64.b32decode('" +
+                   base64.b32encode(s).decode('ascii') +
+                   "'))()")
+>       assert not subprocess.call([sys.executable, '-c', command])
+E       AssertionError: assert not 1
+E        +  where 1 = <function call at 0x5009195048>(['/rsusr/ported/IBM/izoda/anaconda/bin/python', '-c', "import pickle, base64; pickle.loads(base64.b32decode('QACJKGYCA...MFWWLFEMHNBWY33VMRIGSY3LNRSVIZLTOQXHIZLTORPWS3LQN5ZHILR4NRXWGYLMOM7C443DN5YGKLR4NRXWGYLMOM7C4ZLYMFWXA3DFSR2XIURO'))()"])
+E        +    where <function call at 0x5009195048> = subprocess.call
+
+cloudpickle_test.py:601: AssertionError
+______________________ CloudPickleTest.test_multiprocess _______________________
+
+self = <tests.cloudpickle_test.CloudPickleTest testMethod=test_multiprocess>
+
+    def test_multiprocess(self):
+        # running a function pickled by another process (a la dask.distributed)
+        def scope():
+            import curses.textpad
+            def example():
+                x = xml.etree.ElementTree.Comment
+                x = curses.textpad.Textbox
+            return example
+        global xml
+        import xml.etree.ElementTree
+        example = scope()
+    
+        s = cloudpickle.dumps(example)
+    
+        # choose "subprocess" rather than "multiprocessing" because the latter
+        # library uses fork to preserve the parent environment.
+        command = ("import pickle, base64; "
+                   "pickle.loads(base64.b32decode('" +
+                   base64.b32encode(s).decode('ascii') +
+                   "'))()")
+>       assert not subprocess.call([sys.executable, '-c', command])
+E       AssertionError: assert not 1
+E        +  where 1 = <function call at 0x5009195048>(['/rsusr/ported/IBM/izoda/anaconda/bin/python', '-c', "import pickle, base64; pickle.loads(base64.b32decode('QACJK5QCA...MRIGSY3LNRSVIZLTOQXHIZLTORPW25LMORUXA4TPMNSXG4ZOHRWG6Y3BNRZT4LTTMNXXAZJOHRWG6Y3BNRZT4LTFPBQW24DMMWKHK5CSFY======'))()"])
+E        +    where <function call at 0x5009195048> = subprocess.call
+
+cloudpickle_test.py:580: AssertionError
+_____________________ Protocol2CloudPickleTest.test_import _____________________
+
+self = <tests.cloudpickle_test.Protocol2CloudPickleTest testMethod=test_import>
+
+    def test_import(self):
+        # like test_multiprocess except subpackage modules referenced directly
+        # (unlike test_submodule)
+        global etree
+        def scope():
+            import curses.textpad as foobar
+            def example():
+                x = etree.Comment
+                x = foobar.Textbox
+            return example
+        example = scope()
+        import xml.etree.ElementTree as etree
+    
+        s = cloudpickle.dumps(example)
+    
+        command = ("import pickle, base64; "
+                   "pickle.loads(base64.b32decode('" +
+                   base64.b32encode(s).decode('ascii') +
+                   "'))()")
+>       assert not subprocess.call([sys.executable, '-c', command])
+E       AssertionError: assert not 1
+E        +  where 1 = <function call at 0x5009195048>(['/rsusr/ported/IBM/izoda/anaconda/bin/python', '-c', "import pickle, base64; pickle.loads(base64.b32decode('QACJKGYCA...MFWWLFEMHNBWY33VMRIGSY3LNRSVIZLTOQXHIZLTORPWS3LQN5ZHILR4NRXWGYLMOM7C443DN5YGKLR4NRXWGYLMOM7C4ZLYMFWXA3DFSR2XIURO'))()"])
+E        +    where <function call at 0x5009195048> = subprocess.call
+
+cloudpickle_test.py:601: AssertionError
+__________________ Protocol2CloudPickleTest.test_multiprocess __________________
+
+self = <tests.cloudpickle_test.Protocol2CloudPickleTest testMethod=test_multiprocess>
+
+    def test_multiprocess(self):
+        # running a function pickled by another process (a la dask.distributed)
+        def scope():
+            import curses.textpad
+            def example():
+                x = xml.etree.ElementTree.Comment
+                x = curses.textpad.Textbox
+            return example
+        global xml
+        import xml.etree.ElementTree
+        example = scope()
+    
+        s = cloudpickle.dumps(example)
+    
+        # choose "subprocess" rather than "multiprocessing" because the latter
+        # library uses fork to preserve the parent environment.
+        command = ("import pickle, base64; "
+                   "pickle.loads(base64.b32decode('" +
+                   base64.b32encode(s).decode('ascii') +
+                   "'))()")
+>       assert not subprocess.call([sys.executable, '-c', command])
+E       AssertionError: assert not 1
+E        +  where 1 = <function call at 0x5009195048>(['/rsusr/ported/IBM/izoda/anaconda/bin/python', '-c', "import pickle, base64; pickle.loads(base64.b32decode('QACJK5QCA...MRIGSY3LNRSVIZLTOQXHIZLTORPW25LMORUXA4TPMNSXG4ZOHRWG6Y3BNRZT4LTTMNXXAZJOHRWG6Y3BNRZT4LTFPBQW24DMMWKHK5CSFY======'))()"])
+E        +    where <function call at 0x5009195048> = subprocess.call
+
+cloudpickle_test.py:580: AssertionError
+=============== 4 failed, 113 passed, 5 skipped in 82.86 seconds ===============
